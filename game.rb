@@ -32,7 +32,7 @@ loop do
   break puts "Player 2 wins with #{P2.points}/3 points" if (P1.gameover)
   turn(P2)
   break puts "Player 1 wins with #{P1.points}/3 points" if (P2.gameover)
-  puts "************** next turn **************"
+  puts "#######################################"
 end
 
 
